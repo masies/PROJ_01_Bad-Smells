@@ -2,7 +2,7 @@
 
 ## How to run
 
-  If you don't have `jupyter notebook` installed on your machine -> https://jupyter.org/install
+  If you don't have `jupyter` installed on your machine -> https://jupyter.org/install
 
   open your terminal and run
 
