@@ -2,16 +2,15 @@
 
 ## How to run
 
-In you don't have jupyter notebook installed on your machine -> https://jupyter.org/install
+  If you don't have `jupyter notebook` installed on your machine -> https://jupyter.org/install
 
+  open your terminal and run
 
-open your terminal and run
+  `jupiter notebook`
 
-`jupiter notebook`
+  this will open a browser tab; walk your directory since you reach the project folder.
 
-this will open a browser tab; walk your directory since you reach the project folder.
+  open "Bad-Smells_P1.ipynb"
 
-open "Bad-Smells_P1.ipynb"
-
-this will open a new browser tab where your are presented with the project page.
-Run each instruction block or just Cell > Run All
+  this will open a new browser tab where your are presented with the project page.
+  Run each instruction block or just Cell > Run All
