@@ -277,3 +277,4 @@ class EnumConstantDeclaration(Declaration, Documented):
 
 class AnnotationMethod(Declaration):
     attrs = ("name", "return_type", "dimensions", "default")
+
