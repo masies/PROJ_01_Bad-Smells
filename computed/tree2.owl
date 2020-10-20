@@ -7526,5 +7526,21 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
+<ClassDeclaration rdf:about="#classdeclaration14">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <body rdf:resource="#methoddeclaration163"/>
+  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</jname>
+</ClassDeclaration>
+
+<MethodDeclaration rdf:about="#methoddeclaration163">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <body rdf:resource="#returnstatement107"/>
+  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</jname>
+</MethodDeclaration>
+
+<ReturnStatement rdf:about="#returnstatement107">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</ReturnStatement>
+
 
 </rdf:RDF>
