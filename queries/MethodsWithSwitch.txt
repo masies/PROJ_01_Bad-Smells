@@ -1,0 +1,8 @@
+CLASS: PGNProvider	 METHOD: query	 SWITCH COUNT: 1
+CLASS: PGNProvider	 METHOD: getType	 SWITCH COUNT: 1
+CLASS: PGNProvider	 METHOD: delete	 SWITCH COUNT: 1
+CLASS: PGNProvider	 METHOD: update	 SWITCH COUNT: 1
+CLASS: ChessPuzzleProvider	 METHOD: query	 SWITCH COUNT: 1
+CLASS: ChessPuzzleProvider	 METHOD: getType	 SWITCH COUNT: 1
+CLASS: ChessPuzzleProvider	 METHOD: delete	 SWITCH COUNT: 1
+CLASS: ChessPuzzleProvider	 METHOD: update	 SWITCH COUNT: 1

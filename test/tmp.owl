@@ -992,7 +992,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#methoddeclaration7"/>
   <body rdf:resource="#methoddeclaration8"/>
-  <body rdf:resource="#methoddeclaration9"/>
+  <body rdf:resource="#constructordeclaration1"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DatabaseHelper</jname>
 </ClassDeclaration>
 
@@ -1056,12 +1056,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration9">
+<ConstructorDeclaration rdf:about="#constructordeclaration1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression32"/>
   <parameters rdf:resource="#formalparameter20"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DatabaseHelper</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <StatementExpression rdf:about="#statementexpression32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1096,12 +1096,12 @@
   <body rdf:resource="#fielddeclaration32"/>
   <body rdf:resource="#fielddeclaration33"/>
   <body rdf:resource="#fielddeclaration34"/>
+  <body rdf:resource="#methoddeclaration9"/>
   <body rdf:resource="#methoddeclaration10"/>
   <body rdf:resource="#methoddeclaration11"/>
   <body rdf:resource="#methoddeclaration12"/>
   <body rdf:resource="#methoddeclaration13"/>
   <body rdf:resource="#methoddeclaration14"/>
-  <body rdf:resource="#methoddeclaration15"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChessPuzzleProvider</jname>
 </ClassDeclaration>
 
@@ -1220,7 +1220,7 @@
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mOpenHelper</jname>
 </FieldDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration10">
+<MethodDeclaration rdf:about="#methoddeclaration9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression33"/>
   <body rdf:resource="#returnstatement8"/>
@@ -1235,7 +1235,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration11">
+<MethodDeclaration rdf:about="#methoddeclaration10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#switchstatement5"/>
   <body rdf:resource="#statementexpression34"/>
@@ -1390,7 +1390,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration12">
+<MethodDeclaration rdf:about="#methoddeclaration11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#switchstatement6"/>
   <body rdf:resource="#returnstatement10"/>
@@ -1430,7 +1430,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration13">
+<MethodDeclaration rdf:about="#methoddeclaration12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement12"/>
   <body rdf:resource="#blockstatement15"/>
@@ -1545,7 +1545,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration14">
+<MethodDeclaration rdf:about="#methoddeclaration13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#switchstatement7"/>
   <body rdf:resource="#statementexpression56"/>
@@ -1625,7 +1625,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration15">
+<MethodDeclaration rdf:about="#methoddeclaration14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#switchstatement8"/>
   <body rdf:resource="#statementexpression61"/>
@@ -1682,13 +1682,13 @@
 
 <ClassDeclaration rdf:about="#classdeclaration4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <body rdf:resource="#methoddeclaration15"/>
   <body rdf:resource="#methoddeclaration16"/>
-  <body rdf:resource="#methoddeclaration17"/>
-  <body rdf:resource="#methoddeclaration18"/>
+  <body rdf:resource="#constructordeclaration2"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DatabaseHelper</jname>
 </ClassDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration16">
+<MethodDeclaration rdf:about="#methoddeclaration15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression63"/>
   <parameters rdf:resource="#formalparameter36"/>
@@ -1703,7 +1703,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration17">
+<MethodDeclaration rdf:about="#methoddeclaration16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression64"/>
   <body rdf:resource="#statementexpression65"/>
@@ -1738,12 +1738,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration18">
+<ConstructorDeclaration rdf:about="#constructordeclaration2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression67"/>
   <parameters rdf:resource="#formalparameter40"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DatabaseHelper</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <StatementExpression rdf:about="#statementexpression67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1779,6 +1779,8 @@
   <body rdf:resource="#fielddeclaration56"/>
   <body rdf:resource="#fielddeclaration57"/>
   <body rdf:resource="#fielddeclaration58"/>
+  <body rdf:resource="#methoddeclaration17"/>
+  <body rdf:resource="#methoddeclaration18"/>
   <body rdf:resource="#methoddeclaration19"/>
   <body rdf:resource="#methoddeclaration20"/>
   <body rdf:resource="#methoddeclaration21"/>
@@ -1840,9 +1842,7 @@
   <body rdf:resource="#methoddeclaration77"/>
   <body rdf:resource="#methoddeclaration78"/>
   <body rdf:resource="#methoddeclaration79"/>
-  <body rdf:resource="#methoddeclaration80"/>
-  <body rdf:resource="#methoddeclaration81"/>
-  <body rdf:resource="#methoddeclaration82"/>
+  <body rdf:resource="#constructordeclaration3"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GameControl</jname>
 </ClassDeclaration>
 
@@ -1966,7 +1966,7 @@
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">_openingDbFileName</jname>
 </FieldDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration19">
+<MethodDeclaration rdf:about="#methoddeclaration17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression68"/>
   <body rdf:resource="#statementexpression69"/>
@@ -2036,7 +2036,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration20">
+<MethodDeclaration rdf:about="#methoddeclaration18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression74"/>
   <parameters rdf:resource="#formalparameter44"/>
@@ -2051,7 +2051,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration21">
+<MethodDeclaration rdf:about="#methoddeclaration19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement17"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getOpeningDbFileName</jname>
@@ -2061,7 +2061,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration22">
+<MethodDeclaration rdf:about="#methoddeclaration20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression75"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enableControl</jname>
@@ -2071,7 +2071,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration23">
+<MethodDeclaration rdf:about="#methoddeclaration21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression76"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disableControl</jname>
@@ -2081,7 +2081,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration24">
+<MethodDeclaration rdf:about="#methoddeclaration22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement18"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isActive</jname>
@@ -2091,7 +2091,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration25">
+<MethodDeclaration rdf:about="#methoddeclaration23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression77"/>
   <body rdf:resource="#statementexpression78"/>
@@ -2131,7 +2131,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration26">
+<MethodDeclaration rdf:about="#methoddeclaration24">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement18"/>
   <body rdf:resource="#blockstatement20"/>
@@ -2186,7 +2186,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration27">
+<MethodDeclaration rdf:about="#methoddeclaration25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression90"/>
   <parameters rdf:resource="#formalparameter45"/>
@@ -2201,7 +2201,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration28">
+<MethodDeclaration rdf:about="#methoddeclaration26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement20"/>
   <body rdf:resource="#blockstatement22"/>
@@ -2246,7 +2246,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration29">
+<MethodDeclaration rdf:about="#methoddeclaration27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement22"/>
   <body rdf:resource="#blockstatement24"/>
@@ -2276,7 +2276,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration30">
+<MethodDeclaration rdf:about="#methoddeclaration28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement24"/>
   <body rdf:resource="#blockstatement25"/>
@@ -2316,7 +2316,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration31">
+<MethodDeclaration rdf:about="#methoddeclaration29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement21"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getWhiteRemainClock</jname>
@@ -2326,7 +2326,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration32">
+<MethodDeclaration rdf:about="#methoddeclaration30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement22"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getBlackRemainClock</jname>
@@ -2336,7 +2336,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration33">
+<MethodDeclaration rdf:about="#methoddeclaration31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement25"/>
   <body rdf:resource="#blockstatement27"/>
@@ -2391,7 +2391,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration34">
+<MethodDeclaration rdf:about="#methoddeclaration32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression101"/>
   <body rdf:resource="#statementexpression102"/>
@@ -2441,7 +2441,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration35">
+<MethodDeclaration rdf:about="#methoddeclaration33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement27"/>
   <body rdf:resource="#blockstatement28"/>
@@ -2531,7 +2531,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration36">
+<MethodDeclaration rdf:about="#methoddeclaration34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression119"/>
   <body rdf:resource="#statementexpression120"/>
@@ -2596,7 +2596,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration37">
+<MethodDeclaration rdf:about="#methoddeclaration35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression129"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undo</jname>
@@ -2606,7 +2606,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration38">
+<MethodDeclaration rdf:about="#methoddeclaration36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#trystatement2"/>
   <body rdf:resource="#synchronizedstatement1"/>
@@ -2656,7 +2656,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration39">
+<MethodDeclaration rdf:about="#methoddeclaration37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement29"/>
   <body rdf:resource="#blockstatement30"/>
@@ -2711,7 +2711,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration40">
+<MethodDeclaration rdf:about="#methoddeclaration38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement28"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getJNI</jname>
@@ -2721,7 +2721,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration41">
+<MethodDeclaration rdf:about="#methoddeclaration39">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement29"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getUCI</jname>
@@ -2731,7 +2731,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration42">
+<MethodDeclaration rdf:about="#methoddeclaration40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement30"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getArrPGNSize</jname>
@@ -2741,7 +2741,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration43">
+<MethodDeclaration rdf:about="#methoddeclaration41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement31"/>
   <body rdf:resource="#blockstatement34"/>
@@ -2816,7 +2816,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration44">
+<MethodDeclaration rdf:about="#methoddeclaration42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression144"/>
   <body rdf:resource="#statementexpression145"/>
@@ -2956,7 +2956,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration45">
+<MethodDeclaration rdf:about="#methoddeclaration43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement38"/>
   <body rdf:resource="#blockstatement45"/>
@@ -3061,7 +3061,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration46">
+<MethodDeclaration rdf:about="#methoddeclaration44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#whilestatement6"/>
   <body rdf:resource="#blockstatement50"/>
@@ -3091,7 +3091,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration47">
+<MethodDeclaration rdf:about="#methoddeclaration45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression162"/>
   <body rdf:resource="#statementexpression163"/>
@@ -3581,7 +3581,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration48">
+<MethodDeclaration rdf:about="#methoddeclaration46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#forstatement1"/>
   <body rdf:resource="#blockstatement74"/>
@@ -3631,7 +3631,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration49">
+<MethodDeclaration rdf:about="#methoddeclaration47">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#forstatement2"/>
   <body rdf:resource="#blockstatement76"/>
@@ -3696,7 +3696,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration50">
+<MethodDeclaration rdf:about="#methoddeclaration48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement60"/>
   <body rdf:resource="#blockstatement77"/>
@@ -4101,7 +4101,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration51">
+<MethodDeclaration rdf:about="#methoddeclaration49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression228"/>
   <body rdf:resource="#statementexpression229"/>
@@ -4126,7 +4126,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration52">
+<MethodDeclaration rdf:about="#methoddeclaration50">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#whilestatement9"/>
   <body rdf:resource="#statementexpression230"/>
@@ -4171,7 +4171,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration53">
+<MethodDeclaration rdf:about="#methoddeclaration51">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement84"/>
   <body rdf:resource="#blockstatement98"/>
@@ -4216,7 +4216,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration54">
+<MethodDeclaration rdf:about="#methoddeclaration52">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement86"/>
   <body rdf:resource="#blockstatement100"/>
@@ -4241,7 +4241,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration55">
+<MethodDeclaration rdf:about="#methoddeclaration53">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement87"/>
   <body rdf:resource="#statementexpression232"/>
@@ -4266,7 +4266,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration56">
+<MethodDeclaration rdf:about="#methoddeclaration54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#forstatement5"/>
   <body rdf:resource="#blockstatement101"/>
@@ -4311,7 +4311,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration57">
+<MethodDeclaration rdf:about="#methoddeclaration55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement54"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exportMovesPGN</jname>
@@ -4321,7 +4321,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration58">
+<MethodDeclaration rdf:about="#methoddeclaration56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement89"/>
   <body rdf:resource="#blockstatement102"/>
@@ -4401,7 +4401,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration59">
+<MethodDeclaration rdf:about="#methoddeclaration57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement56"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getPGNEntries</jname>
@@ -4411,7 +4411,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration60">
+<MethodDeclaration rdf:about="#methoddeclaration58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement57"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getLevel</jname>
@@ -4421,7 +4421,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration61">
+<MethodDeclaration rdf:about="#methoddeclaration59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement58"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getLevelMode</jname>
@@ -4431,7 +4431,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration62">
+<MethodDeclaration rdf:about="#methoddeclaration60">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement59"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getLevelPly</jname>
@@ -4441,7 +4441,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration63">
+<MethodDeclaration rdf:about="#methoddeclaration61">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression242"/>
   <parameters rdf:resource="#formalparameter75"/>
@@ -4456,7 +4456,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration64">
+<MethodDeclaration rdf:about="#methoddeclaration62">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression243"/>
   <parameters rdf:resource="#formalparameter76"/>
@@ -4471,7 +4471,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration65">
+<MethodDeclaration rdf:about="#methoddeclaration63">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression244"/>
   <parameters rdf:resource="#formalparameter77"/>
@@ -4486,7 +4486,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration66">
+<MethodDeclaration rdf:about="#methoddeclaration64">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement60"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getUCIDatabase</jname>
@@ -4496,7 +4496,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration67">
+<MethodDeclaration rdf:about="#methoddeclaration65">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement61"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getPlayMode</jname>
@@ -4506,7 +4506,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration68">
+<MethodDeclaration rdf:about="#methoddeclaration66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression245"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">updateState</jname>
@@ -4516,7 +4516,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration69">
+<MethodDeclaration rdf:about="#methoddeclaration67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter78"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setMessage</jname>
@@ -4526,7 +4526,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration70">
+<MethodDeclaration rdf:about="#methoddeclaration68">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter79"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setEngineMessage</jname>
@@ -4536,7 +4536,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration71">
+<MethodDeclaration rdf:about="#methoddeclaration69">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter80"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sendMessageFromThread</jname>
@@ -4546,7 +4546,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration72">
+<MethodDeclaration rdf:about="#methoddeclaration70">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter81"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sendMoveMessageFromThread</jname>
@@ -4556,7 +4556,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration73">
+<MethodDeclaration rdf:about="#methoddeclaration71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter82"/>
   <parameters rdf:resource="#formalparameter83"/>
@@ -4576,7 +4576,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration74">
+<MethodDeclaration rdf:about="#methoddeclaration72">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression246"/>
   <body rdf:resource="#statementexpression247"/>
@@ -4591,12 +4591,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration75">
+<MethodDeclaration rdf:about="#methoddeclaration73">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OnResume</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration76">
+<MethodDeclaration rdf:about="#methoddeclaration74">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression248"/>
   <parameters rdf:resource="#formalparameter85"/>
@@ -4616,7 +4616,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration77">
+<MethodDeclaration rdf:about="#methoddeclaration75">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement62"/>
   <parameters rdf:resource="#formalparameter87"/>
@@ -4631,7 +4631,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration78">
+<MethodDeclaration rdf:about="#methoddeclaration76">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement63"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getWhite</jname>
@@ -4641,7 +4641,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration79">
+<MethodDeclaration rdf:about="#methoddeclaration77">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement64"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getBlack</jname>
@@ -4651,7 +4651,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration80">
+<MethodDeclaration rdf:about="#methoddeclaration78">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression249"/>
   <body rdf:resource="#statementexpression250"/>
@@ -4671,7 +4671,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration81">
+<MethodDeclaration rdf:about="#methoddeclaration79">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement93"/>
   <body rdf:resource="#blockstatement105"/>
@@ -4806,7 +4806,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration82">
+<ConstructorDeclaration rdf:about="#constructordeclaration3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression257"/>
   <body rdf:resource="#statementexpression258"/>
@@ -4818,7 +4818,7 @@
   <body rdf:resource="#statementexpression264"/>
   <body rdf:resource="#statementexpression265"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GameControl</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <StatementExpression rdf:about="#statementexpression257">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4881,8 +4881,8 @@
   <body rdf:resource="#fielddeclaration79"/>
   <body rdf:resource="#fielddeclaration80"/>
   <body rdf:resource="#fielddeclaration81"/>
-  <body rdf:resource="#methoddeclaration83"/>
-  <body rdf:resource="#methoddeclaration84"/>
+  <body rdf:resource="#methoddeclaration80"/>
+  <body rdf:resource="#constructordeclaration4"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valuation</jname>
 </ClassDeclaration>
 
@@ -5001,7 +5001,7 @@
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KBNK_SCORE</jname>
 </FieldDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration83">
+<MethodDeclaration rdf:about="#methoddeclaration80">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression266"/>
   <body rdf:resource="#statementexpression267"/>
@@ -5061,7 +5061,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration84">
+<ConstructorDeclaration rdf:about="#constructordeclaration4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression277"/>
   <body rdf:resource="#statementexpression278"/>
@@ -5075,7 +5075,7 @@
   <body rdf:resource="#statementexpression286"/>
   <body rdf:resource="#statementexpression287"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valuation</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <StatementExpression rdf:about="#statementexpression277">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5123,6 +5123,10 @@
 
 <ClassDeclaration rdf:about="#classdeclaration7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <body rdf:resource="#methoddeclaration81"/>
+  <body rdf:resource="#methoddeclaration82"/>
+  <body rdf:resource="#methoddeclaration83"/>
+  <body rdf:resource="#methoddeclaration84"/>
   <body rdf:resource="#methoddeclaration85"/>
   <body rdf:resource="#methoddeclaration86"/>
   <body rdf:resource="#methoddeclaration87"/>
@@ -5163,15 +5167,11 @@
   <body rdf:resource="#methoddeclaration122"/>
   <body rdf:resource="#methoddeclaration123"/>
   <body rdf:resource="#methoddeclaration124"/>
-  <body rdf:resource="#methoddeclaration125"/>
-  <body rdf:resource="#methoddeclaration126"/>
-  <body rdf:resource="#methoddeclaration127"/>
-  <body rdf:resource="#methoddeclaration128"/>
-  <body rdf:resource="#methoddeclaration129"/>
+  <body rdf:resource="#constructordeclaration5"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JNI</jname>
 </ClassDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration85">
+<MethodDeclaration rdf:about="#methoddeclaration81">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression288"/>
   <body rdf:resource="#statementexpression289"/>
@@ -5351,7 +5351,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration86">
+<MethodDeclaration rdf:about="#methoddeclaration82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression323"/>
   <body rdf:resource="#trystatement8"/>
@@ -5801,7 +5801,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration87">
+<MethodDeclaration rdf:about="#methoddeclaration83">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement72"/>
   <parameters rdf:resource="#formalparameter90"/>
@@ -5816,7 +5816,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration88">
+<MethodDeclaration rdf:about="#methoddeclaration84">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#dostatement1"/>
   <body rdf:resource="#blockstatement138"/>
@@ -5871,7 +5871,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration89">
+<MethodDeclaration rdf:about="#methoddeclaration85">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#dostatement2"/>
   <body rdf:resource="#blockstatement140"/>
@@ -5916,7 +5916,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </ReturnStatement>
 
-<MethodDeclaration rdf:about="#methoddeclaration90">
+<MethodDeclaration rdf:about="#methoddeclaration86">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression360"/>
   <body rdf:resource="#ifstatement123"/>
@@ -6361,17 +6361,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration91">
+<MethodDeclaration rdf:about="#methoddeclaration87">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">destroy</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration92">
+<MethodDeclaration rdf:about="#methoddeclaration88">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isInited</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration93">
+<MethodDeclaration rdf:about="#methoddeclaration89">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter93"/>
   <parameters rdf:resource="#formalparameter94"/>
@@ -6386,7 +6386,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration94">
+<MethodDeclaration rdf:about="#methoddeclaration90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter95"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">move</jname>
@@ -6396,17 +6396,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration95">
+<MethodDeclaration rdf:about="#methoddeclaration91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undo</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration96">
+<MethodDeclaration rdf:about="#methoddeclaration92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reset</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration97">
+<MethodDeclaration rdf:about="#methoddeclaration93">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter96"/>
   <parameters rdf:resource="#formalparameter97"/>
@@ -6426,7 +6426,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration98">
+<MethodDeclaration rdf:about="#methoddeclaration94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter99"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">searchMove</jname>
@@ -6436,7 +6436,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration99">
+<MethodDeclaration rdf:about="#methoddeclaration95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter100"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">searchDepth</jname>
@@ -6446,22 +6446,22 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration100">
+<MethodDeclaration rdf:about="#methoddeclaration96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getMove</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration101">
+<MethodDeclaration rdf:about="#methoddeclaration97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getBoardValue</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration102">
+<MethodDeclaration rdf:about="#methoddeclaration98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peekSearchDone</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration103">
+<MethodDeclaration rdf:about="#methoddeclaration99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter101"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peekSearchBestMove</jname>
@@ -6471,22 +6471,22 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration104">
+<MethodDeclaration rdf:about="#methoddeclaration100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peekSearchBestValue</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration105">
+<MethodDeclaration rdf:about="#methoddeclaration101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peekSearchDepth</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration106">
+<MethodDeclaration rdf:about="#methoddeclaration102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getEvalCount</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration107">
+<MethodDeclaration rdf:about="#methoddeclaration103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter102"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setPromo</jname>
@@ -6496,17 +6496,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration108">
+<MethodDeclaration rdf:about="#methoddeclaration104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getState</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration109">
+<MethodDeclaration rdf:about="#methoddeclaration105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isEnded</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration110">
+<MethodDeclaration rdf:about="#methoddeclaration106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter103"/>
   <parameters rdf:resource="#formalparameter104"/>
@@ -6541,22 +6541,22 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration111">
+<MethodDeclaration rdf:about="#methoddeclaration107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getNumBoard</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration112">
+<MethodDeclaration rdf:about="#methoddeclaration108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getTurn</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration113">
+<MethodDeclaration rdf:about="#methoddeclaration109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">commitBoard</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration114">
+<MethodDeclaration rdf:about="#methoddeclaration110">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter109"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">setTurn</jname>
@@ -6566,12 +6566,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration115">
+<MethodDeclaration rdf:about="#methoddeclaration111">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getMoveArraySize</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration116">
+<MethodDeclaration rdf:about="#methoddeclaration112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter110"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getMoveArrayAt</jname>
@@ -6581,7 +6581,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration117">
+<MethodDeclaration rdf:about="#methoddeclaration113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter111"/>
   <parameters rdf:resource="#formalparameter112"/>
@@ -6596,22 +6596,22 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration118">
+<MethodDeclaration rdf:about="#methoddeclaration114">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getMyMoveToString</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration119">
+<MethodDeclaration rdf:about="#methoddeclaration115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getMyMove</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration120">
+<MethodDeclaration rdf:about="#methoddeclaration116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isLegalPosition</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration121">
+<MethodDeclaration rdf:about="#methoddeclaration117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter113"/>
   <parameters rdf:resource="#formalparameter114"/>
@@ -6626,7 +6626,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration122">
+<MethodDeclaration rdf:about="#methoddeclaration118">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter115"/>
   <parameters rdf:resource="#formalparameter116"/>
@@ -6641,12 +6641,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration123">
+<MethodDeclaration rdf:about="#methoddeclaration119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toFEN</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration124">
+<MethodDeclaration rdf:about="#methoddeclaration120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter117"/>
   <parameters rdf:resource="#formalparameter118"/>
@@ -6661,12 +6661,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration125">
+<MethodDeclaration rdf:about="#methoddeclaration121">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getHashKey</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration126">
+<MethodDeclaration rdf:about="#methoddeclaration122">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter119"/>
   <parameters rdf:resource="#formalparameter120"/>
@@ -6681,12 +6681,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration127">
+<MethodDeclaration rdf:about="#methoddeclaration123">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interrupt</jname>
 </MethodDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration128">
+<MethodDeclaration rdf:about="#methoddeclaration124">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <parameters rdf:resource="#formalparameter121"/>
   <parameters rdf:resource="#formalparameter122"/>
@@ -6701,17 +6701,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration129">
+<ConstructorDeclaration rdf:about="#constructordeclaration5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JNI</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <ClassDeclaration rdf:about="#classdeclaration8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#fielddeclaration82"/>
   <body rdf:resource="#fielddeclaration83"/>
   <body rdf:resource="#fielddeclaration84"/>
-  <body rdf:resource="#methoddeclaration130"/>
+  <body rdf:resource="#constructordeclaration6"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PGNEntry</jname>
 </ClassDeclaration>
 
@@ -6730,7 +6730,7 @@
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">_move</jname>
 </FieldDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration130">
+<ConstructorDeclaration rdf:about="#constructordeclaration6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression443"/>
   <body rdf:resource="#statementexpression444"/>
@@ -6739,7 +6739,7 @@
   <parameters rdf:resource="#formalparameter124"/>
   <parameters rdf:resource="#formalparameter125"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PGNEntry</jname>
-</MethodDeclaration>
+</ConstructorDeclaration>
 
 <StatementExpression rdf:about="#statementexpression443">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6843,6 +6843,12 @@
   <body rdf:resource="#fielddeclaration103"/>
   <body rdf:resource="#fielddeclaration104"/>
   <body rdf:resource="#fielddeclaration105"/>
+  <body rdf:resource="#methoddeclaration125"/>
+  <body rdf:resource="#methoddeclaration126"/>
+  <body rdf:resource="#methoddeclaration127"/>
+  <body rdf:resource="#methoddeclaration128"/>
+  <body rdf:resource="#methoddeclaration129"/>
+  <body rdf:resource="#methoddeclaration130"/>
   <body rdf:resource="#methoddeclaration131"/>
   <body rdf:resource="#methoddeclaration132"/>
   <body rdf:resource="#methoddeclaration133"/>
@@ -6858,12 +6864,6 @@
   <body rdf:resource="#methoddeclaration143"/>
   <body rdf:resource="#methoddeclaration144"/>
   <body rdf:resource="#methoddeclaration145"/>
-  <body rdf:resource="#methoddeclaration146"/>
-  <body rdf:resource="#methoddeclaration147"/>
-  <body rdf:resource="#methoddeclaration148"/>
-  <body rdf:resource="#methoddeclaration149"/>
-  <body rdf:resource="#methoddeclaration150"/>
-  <body rdf:resource="#methoddeclaration151"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Move</jname>
 </ClassDeclaration>
 
@@ -6922,7 +6922,7 @@
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHIFT_PROMOTIONPIECE</jname>
 </FieldDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration131">
+<MethodDeclaration rdf:about="#methoddeclaration125">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement77"/>
   <parameters rdf:resource="#formalparameter126"/>
@@ -6942,7 +6942,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration132">
+<MethodDeclaration rdf:about="#methoddeclaration126">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement78"/>
   <parameters rdf:resource="#formalparameter128"/>
@@ -6962,7 +6962,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration133">
+<MethodDeclaration rdf:about="#methoddeclaration127">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement79"/>
   <parameters rdf:resource="#formalparameter130"/>
@@ -6982,7 +6982,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration134">
+<MethodDeclaration rdf:about="#methoddeclaration128">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement80"/>
   <parameters rdf:resource="#formalparameter132"/>
@@ -7002,7 +7002,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration135">
+<MethodDeclaration rdf:about="#methoddeclaration129">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement81"/>
   <parameters rdf:resource="#formalparameter134"/>
@@ -7022,7 +7022,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration136">
+<MethodDeclaration rdf:about="#methoddeclaration130">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement82"/>
   <parameters rdf:resource="#formalparameter136"/>
@@ -7042,7 +7042,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration137">
+<MethodDeclaration rdf:about="#methoddeclaration131">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement83"/>
   <parameters rdf:resource="#formalparameter138"/>
@@ -7072,7 +7072,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration138">
+<MethodDeclaration rdf:about="#methoddeclaration132">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement84"/>
   <parameters rdf:resource="#formalparameter142"/>
@@ -7087,7 +7087,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration139">
+<MethodDeclaration rdf:about="#methoddeclaration133">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement85"/>
   <parameters rdf:resource="#formalparameter143"/>
@@ -7107,7 +7107,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration140">
+<MethodDeclaration rdf:about="#methoddeclaration134">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement86"/>
   <parameters rdf:resource="#formalparameter145"/>
@@ -7127,7 +7127,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration141">
+<MethodDeclaration rdf:about="#methoddeclaration135">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement87"/>
   <parameters rdf:resource="#formalparameter147"/>
@@ -7142,7 +7142,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration142">
+<MethodDeclaration rdf:about="#methoddeclaration136">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement88"/>
   <parameters rdf:resource="#formalparameter148"/>
@@ -7157,7 +7157,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration143">
+<MethodDeclaration rdf:about="#methoddeclaration137">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement89"/>
   <parameters rdf:resource="#formalparameter149"/>
@@ -7172,7 +7172,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration144">
+<MethodDeclaration rdf:about="#methoddeclaration138">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement90"/>
   <parameters rdf:resource="#formalparameter150"/>
@@ -7187,7 +7187,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration145">
+<MethodDeclaration rdf:about="#methoddeclaration139">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement91"/>
   <parameters rdf:resource="#formalparameter151"/>
@@ -7202,7 +7202,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration146">
+<MethodDeclaration rdf:about="#methoddeclaration140">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement92"/>
   <parameters rdf:resource="#formalparameter152"/>
@@ -7217,7 +7217,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration147">
+<MethodDeclaration rdf:about="#methoddeclaration141">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement93"/>
   <parameters rdf:resource="#formalparameter153"/>
@@ -7232,7 +7232,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration148">
+<MethodDeclaration rdf:about="#methoddeclaration142">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement94"/>
   <parameters rdf:resource="#formalparameter154"/>
@@ -7247,7 +7247,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration149">
+<MethodDeclaration rdf:about="#methoddeclaration143">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement95"/>
   <parameters rdf:resource="#formalparameter155"/>
@@ -7262,7 +7262,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration150">
+<MethodDeclaration rdf:about="#methoddeclaration144">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement96"/>
   <parameters rdf:resource="#formalparameter156"/>
@@ -7277,7 +7277,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration151">
+<MethodDeclaration rdf:about="#methoddeclaration145">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#ifstatement124"/>
   <body rdf:resource="#returnstatement97"/>
@@ -7314,17 +7314,17 @@
 
 <ClassDeclaration rdf:about="#classdeclaration11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <body rdf:resource="#methoddeclaration146"/>
+  <body rdf:resource="#methoddeclaration147"/>
+  <body rdf:resource="#methoddeclaration148"/>
+  <body rdf:resource="#methoddeclaration149"/>
+  <body rdf:resource="#methoddeclaration150"/>
+  <body rdf:resource="#methoddeclaration151"/>
   <body rdf:resource="#methoddeclaration152"/>
-  <body rdf:resource="#methoddeclaration153"/>
-  <body rdf:resource="#methoddeclaration154"/>
-  <body rdf:resource="#methoddeclaration155"/>
-  <body rdf:resource="#methoddeclaration156"/>
-  <body rdf:resource="#methoddeclaration157"/>
-  <body rdf:resource="#methoddeclaration158"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pos</jname>
 </ClassDeclaration>
 
-<MethodDeclaration rdf:about="#methoddeclaration152">
+<MethodDeclaration rdf:about="#methoddeclaration146">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression446"/>
   <body rdf:resource="#returnstatement100"/>
@@ -7344,7 +7344,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration153">
+<MethodDeclaration rdf:about="#methoddeclaration147">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement101"/>
   <parameters rdf:resource="#formalparameter159"/>
@@ -7364,7 +7364,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration154">
+<MethodDeclaration rdf:about="#methoddeclaration148">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement102"/>
   <parameters rdf:resource="#formalparameter161"/>
@@ -7379,7 +7379,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration155">
+<MethodDeclaration rdf:about="#methoddeclaration149">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement103"/>
   <parameters rdf:resource="#formalparameter162"/>
@@ -7394,7 +7394,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration156">
+<MethodDeclaration rdf:about="#methoddeclaration150">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement104"/>
   <parameters rdf:resource="#formalparameter163"/>
@@ -7409,7 +7409,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration157">
+<MethodDeclaration rdf:about="#methoddeclaration151">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement105"/>
   <parameters rdf:resource="#formalparameter164"/>
@@ -7424,7 +7424,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
 
-<MethodDeclaration rdf:about="#methoddeclaration158">
+<MethodDeclaration rdf:about="#methoddeclaration152">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#returnstatement106"/>
   <parameters rdf:resource="#formalparameter165"/>
@@ -7441,106 +7441,124 @@
 
 <ClassDeclaration rdf:about="#classdeclaration12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#fielddeclaration106"/>
-  <body rdf:resource="#fielddeclaration107"/>
+  <body rdf:resource="#methoddeclaration153"/>
   <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</jname>
 </ClassDeclaration>
 
-<FieldDeclaration rdf:about="#fielddeclaration106">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x</jname>
-</FieldDeclaration>
-
-<FieldDeclaration rdf:about="#fielddeclaration107">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">y</jname>
-</FieldDeclaration>
-
-<ClassDeclaration rdf:about="#classdeclaration13">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#fielddeclaration108"/>
-  <body rdf:resource="#methoddeclaration159"/>
-  <body rdf:resource="#methoddeclaration160"/>
-  <body rdf:resource="#methoddeclaration161"/>
-  <body rdf:resource="#methoddeclaration162"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Main</jname>
-</ClassDeclaration>
-
-<FieldDeclaration rdf:about="#fielddeclaration108">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sum</jname>
-</FieldDeclaration>
-
-<MethodDeclaration rdf:about="#methoddeclaration159">
+<MethodDeclaration rdf:about="#methoddeclaration153">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <body rdf:resource="#statementexpression447"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">display</jname>
+  <body rdf:resource="#statementexpression448"/>
+  <body rdf:resource="#statementexpression449"/>
+  <body rdf:resource="#statementexpression450"/>
+  <body rdf:resource="#statementexpression451"/>
+  <body rdf:resource="#statementexpression452"/>
+  <body rdf:resource="#statementexpression453"/>
+  <body rdf:resource="#statementexpression454"/>
+  <body rdf:resource="#statementexpression455"/>
+  <body rdf:resource="#statementexpression456"/>
+  <body rdf:resource="#statementexpression457"/>
+  <body rdf:resource="#statementexpression458"/>
+  <body rdf:resource="#statementexpression459"/>
+  <body rdf:resource="#statementexpression460"/>
+  <body rdf:resource="#statementexpression461"/>
+  <body rdf:resource="#statementexpression462"/>
+  <body rdf:resource="#statementexpression463"/>
+  <body rdf:resource="#statementexpression464"/>
+  <body rdf:resource="#statementexpression465"/>
+  <body rdf:resource="#statementexpression466"/>
+  <body rdf:resource="#statementexpression467"/>
+  <parameters rdf:resource="#formalparameter166"/>
+  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</jname>
 </MethodDeclaration>
 
 <StatementExpression rdf:about="#statementexpression447">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
-<MethodDeclaration rdf:about="#methoddeclaration160">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#statementexpression448"/>
-  <parameters rdf:resource="#formalparameter166"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main</jname>
-</MethodDeclaration>
-
 <StatementExpression rdf:about="#statementexpression448">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression449">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression450">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression451">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression452">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression453">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression454">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression455">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression456">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression457">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression458">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression459">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression460">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression461">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression462">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression463">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression464">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression465">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression466">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</StatementExpression>
+
+<StatementExpression rdf:about="#statementexpression467">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </StatementExpression>
 
 <FormalParameter rdf:about="#formalparameter166">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </FormalParameter>
-
-<MethodDeclaration rdf:about="#methoddeclaration161">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#statementexpression449"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Main</jname>
-</MethodDeclaration>
-
-<StatementExpression rdf:about="#statementexpression449">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</StatementExpression>
-
-<MethodDeclaration rdf:about="#methoddeclaration162">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#statementexpression450"/>
-  <parameters rdf:resource="#formalparameter167"/>
-  <parameters rdf:resource="#formalparameter168"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Main</jname>
-</MethodDeclaration>
-
-<StatementExpression rdf:about="#statementexpression450">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</StatementExpression>
-
-<FormalParameter rdf:about="#formalparameter167">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</FormalParameter>
-
-<FormalParameter rdf:about="#formalparameter168">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</FormalParameter>
-
-<ClassDeclaration rdf:about="#classdeclaration14">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#methoddeclaration163"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</jname>
-</ClassDeclaration>
-
-<MethodDeclaration rdf:about="#methoddeclaration163">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <body rdf:resource="#returnstatement107"/>
-  <jname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</jname>
-</MethodDeclaration>
-
-<ReturnStatement rdf:about="#returnstatement107">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</ReturnStatement>
 
 
 </rdf:RDF>
